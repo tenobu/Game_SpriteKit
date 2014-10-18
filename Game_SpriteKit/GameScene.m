@@ -39,7 +39,9 @@
         [sprite runAction:[SKAction repeatActionForever:action]];
         
         [self addChild:sprite];
+		
     }
+	
 }
 
 -(void)update:(CFTimeInterval)currentTime {
