@@ -16,6 +16,9 @@
 		987F724E19F0DD2800BFA477 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 987F724D19F0DD2800BFA477 /* Images.xcassets */; };
 		987F725119F0DD2800BFA477 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 987F724F19F0DD2800BFA477 /* LaunchScreen.xib */; };
 		987F725D19F0DD2800BFA477 /* Game_SpriteKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 987F725C19F0DD2800BFA477 /* Game_SpriteKitTests.m */; };
+		987F726C19F2845500BFA477 /* GameScene1.m in Sources */ = {isa = PBXBuildFile; fileRef = 987F726719F2845500BFA477 /* GameScene1.m */; };
+		987F726D19F2845500BFA477 /* GameScene2.m in Sources */ = {isa = PBXBuildFile; fileRef = 987F726919F2845500BFA477 /* GameScene2.m */; };
+		987F726E19F2845500BFA477 /* GameScene3.m in Sources */ = {isa = PBXBuildFile; fileRef = 987F726B19F2845500BFA477 /* GameScene3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,12 @@
 		987F725619F0DD2800BFA477 /* Game_SpriteKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Game_SpriteKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		987F725B19F0DD2800BFA477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		987F725C19F0DD2800BFA477 /* Game_SpriteKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Game_SpriteKitTests.m; sourceTree = "<group>"; };
+		987F726619F2845500BFA477 /* GameScene1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene1.h; sourceTree = "<group>"; };
+		987F726719F2845500BFA477 /* GameScene1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene1.m; sourceTree = "<group>"; };
+		987F726819F2845500BFA477 /* GameScene2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene2.h; sourceTree = "<group>"; };
+		987F726919F2845500BFA477 /* GameScene2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene2.m; sourceTree = "<group>"; };
+		987F726A19F2845500BFA477 /* GameScene3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene3.h; sourceTree = "<group>"; };
+		987F726B19F2845500BFA477 /* GameScene3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +102,12 @@
 				987F724519F0DD2800BFA477 /* GameScene.sks */,
 				987F724719F0DD2800BFA477 /* GameViewController.h */,
 				987F724819F0DD2800BFA477 /* GameViewController.m */,
+				987F726619F2845500BFA477 /* GameScene1.h */,
+				987F726719F2845500BFA477 /* GameScene1.m */,
+				987F726819F2845500BFA477 /* GameScene2.h */,
+				987F726919F2845500BFA477 /* GameScene2.m */,
+				987F726A19F2845500BFA477 /* GameScene3.h */,
+				987F726B19F2845500BFA477 /* GameScene3.m */,
 				987F724A19F0DD2800BFA477 /* Main.storyboard */,
 				987F724D19F0DD2800BFA477 /* Images.xcassets */,
 				987F724F19F0DD2800BFA477 /* LaunchScreen.xib */,
@@ -228,10 +243,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				987F726C19F2845500BFA477 /* GameScene1.m in Sources */,
+				987F726E19F2845500BFA477 /* GameScene3.m in Sources */,
 				987F724919F0DD2800BFA477 /* GameViewController.m in Sources */,
 				987F724119F0DD2800BFA477 /* AppDelegate.m in Sources */,
 				987F724419F0DD2800BFA477 /* GameScene.m in Sources */,
 				987F723E19F0DD2800BFA477 /* main.m in Sources */,
+				987F726D19F2845500BFA477 /* GameScene2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +442,7 @@
 				987F726219F0DD2800BFA477 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		987F726319F0DD2800BFA477 /* Build configuration list for PBXNativeTarget "Game_SpriteKitTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +451,7 @@
 				987F726519F0DD2800BFA477 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
